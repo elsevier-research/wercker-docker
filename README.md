@@ -43,7 +43,7 @@ The following example build and push a docker image to a private Docker registry
 deploy:
   steps:
   ...
-    - nhuray/wercker-docker:
+    - nhuray/docker:
         image: myimage
         tags: ${WERCKER_GIT_COMMIT:0:7},latest
         registry: tutum.co
