@@ -1,0 +1,35 @@
+name: docker
+version: 0.0.1
+description: Build and push Docker images
+keywords:
+  - docker
+  - build
+  - push
+  - registry
+properties:
+  # Step 1: Building image
+  image:
+    type: string
+    required: true
+  path:
+    type: string
+    required: false
+
+  # Step 2: Tagging image(s)
+  tags:
+    type: string
+    required: false
+
+  # Step 3 : Pushing image(s)
+  registry:
+    type: string
+    required: false
+  username:
+    type: string
+    required: true
+  password:
+    type: string
+    required: true
+  email:
+    type: string
+    required: true
