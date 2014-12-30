@@ -1,6 +1,8 @@
 Wercker step for Docker
 =======================
 
+[![wercker status](https://app.wercker.com/status/53beb859e3696d87c9dc7a8d29a57b2f/m "wercker status")](https://app.wercker.com/project/bykey/53beb859e3696d87c9dc7a8d29a57b2f)
+
 This wercker step allows to [build](https://docs.docker.com/reference/commandline/cli/#build) a project as a Docker image and push the image created in a [Docker](https://docs.docker.com/reference/commandline/cli/#push) registry.
 
 This step must be used with a wercker box built with [Docker Support](http://devcenter.wercker.com/articles/docker).
